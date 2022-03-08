@@ -45,10 +45,16 @@ nav a{
 
     }
 
-a, a:hover{
+/*a:hover{
 
     color: unset;
+}*/
+
+#link{
+    color: unset;
+    text-decoration: none;
 }
+
 
 .dsmovie-contact-container{
     display: flex;
@@ -56,11 +62,59 @@ a, a:hover{
 
 }
 
+
+
 dsmovie-contact-container img{
     margin-right: 12px;
 }
 
-/*main{
+#dsmovie-card-list{
+    padding: 40px 0;
+}
+
+.dsmovie-card{
+   width: 100%;
+}
+
+.dsmovie-card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-description{
+        padding: 10px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--white);
+        border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-card-description h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.dsmovie-btn, .dsmovie-btn:hover{
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;/*Arredondamento de bordas*/
+    text-decoration: none;
+}
+
+
+
+
+
+main{
     background-color: var(--bg-gray);
 }
 
@@ -69,11 +123,7 @@ section{
     
 }
 
-.dsmovie-card{
-    background-color: var(--white);
-    width: 360px;
-    height: 400px;
-}
+
 
 
 
