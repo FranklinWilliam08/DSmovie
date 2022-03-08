@@ -57,5 +57,23 @@ a, a:hover{
 }
 
 dsmovie-contact-container img{
-    margin-left: 10px;
+    margin-right: 12px;
 }
+
+/*main{
+    background-color: var(--bg-gray);
+}
+
+section{
+    background-color: var(--bg-gray);
+    
+}
+
+.dsmovie-card{
+    background-color: var(--white);
+    width: 360px;
+    height: 400px;
+}
+
+
+
